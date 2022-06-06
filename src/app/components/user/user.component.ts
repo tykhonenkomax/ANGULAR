@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {IUsers} from "../../interfaces/IUsers";
 
 
 
@@ -9,7 +10,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserComponent implements OnInit {
 
+@Input()
 
+user:IUsers
 
 constructor() {
 }

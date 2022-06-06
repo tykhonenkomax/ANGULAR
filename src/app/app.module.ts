@@ -9,6 +9,7 @@ import { PostsComponent } from './components/posts/posts.component';
 import { PostComponent } from './components/post/post.component';
 import { CommentsComponent } from './components/comments/comments.component';
 import { CommentComponent } from './components/comment/comment.component';
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CommentComponent } from './components/comment/comment.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
