@@ -1,0 +1,20 @@
+.containerMenu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: black;
+}
+.containerMenu a{
+  text-decoration: none;
+  color: snow;
+  font-family: Verdana;
+  font-size: 18px;
+}
+
+.containerMenu active{
+  color: red;
+}
+.back{
+  color: aqua;
+}
